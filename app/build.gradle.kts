@@ -3,10 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mile"
+    namespace = "com.example.mile.ui"
 
 
     compileSdk = 34
+    buildFeatures {
+        viewBinding = true
+    }
 
 
     defaultConfig {

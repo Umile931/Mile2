@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:padding="24dp">
+
+
+
+    <TextView
+
+        android:id="@+id/tvQuestion"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Question goes here"
+
+        android:textSize="20sp"
+
+        android:layout_marginBottom="24dp"
+
+        android:minHeight="100dp"/>
+
+
+
+    <Button
+
+        android:id="@+id/btnHack"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Hack (True)"
+
+        android:layout_marginBottom="12dp"/>
+
+
+
+    <Button
+
+        android:id="@+id/btnMyth"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Myth (False)"
+
+        android:layout_marginBottom="24dp"/>
+
+
+
+    <TextView
+
+        android:id="@+id/tvFeedback"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text=""
+
+        android:textSize="16sp"
+
+        android:textStyle="italic"
+
+        android:layout_marginBottom="24dp"
+
+        android:minHeight="60dp"/>
+
+
+
+    <Button
+
+        android:id="@+id/btnNext"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Next"
+
+        android:visibility="gone"/>
+
+
+
+</LinearLayout>

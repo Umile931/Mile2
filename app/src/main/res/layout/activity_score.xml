@@ -16,13 +16,15 @@
 
     <TextView
 
+        android:id="@+id/tvScore"
+
         android:layout_width="wrap_content"
 
         android:layout_height="wrap_content"
 
-        android:text="Life Hack or Urban Myth?"
+        android:text="Your Score: 0/5"
 
-        android:textSize="24sp"
+        android:textSize="28sp"
 
         android:textStyle="bold"
 
@@ -32,15 +34,15 @@
 
     <TextView
 
+        android:id="@+id/tvFeedback"
+
         android:layout_width="wrap_content"
 
         android:layout_height="wrap_content"
 
-        android:text="Test your common sense! Can you spot real productivity tips vs viral internet myths?"
+        android:text="Feedback"
 
-        android:textSize="16sp"
-
-        android:gravity="center"
+        android:textSize="20sp"
 
         android:layout_marginBottom="32dp"/>
 
@@ -48,15 +50,27 @@
 
     <Button
 
-        android:id="@+id/btnStart"
+        android:id="@+id/btnReview"
 
         android:layout_width="200dp"
 
         android:layout_height="wrap_content"
 
-        android:text="Start"
+        android:text="Review Answers"
 
-        android:textSize="18sp"/>
+        android:layout_marginBottom="12dp"/>
+
+
+
+    <Button
+
+        android:id="@+id/btnRestart"
+
+        android:layout_width="200dp"
+
+        android:layout_height="wrap_content"
+
+        android:text="Play Again"/>
 
 
 
